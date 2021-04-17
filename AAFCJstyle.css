@@ -1,0 +1,137 @@
+h3{
+    color: #23689b;
+}
+
+.img_fondo{
+    width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.Logo{
+    position: absolute;
+    z-index: 2;
+    top:7%;
+    left:0;
+}
+.fondo{
+    background-color: black;
+    opacity: 20%;
+    position: absolute;
+    z-index: 1;
+    top: 6%;
+    height: 91%;
+    left: 0;
+    right: 0;
+    bottom:0;
+}
+.fondo:hover{
+    opacity: 0;
+}
+.minis{
+    
+    font-size: 2rem;
+    display: inline;
+
+}
+
+.lista{
+    padding: 0 4%;
+   
+}
+li{
+    padding: 0 10px;
+}
+
+#Organización{
+    
+    /*padding: 2%;*/
+    text-align: center;
+    align-items: center;
+    
+}
+.Orga{
+    background-color: #d8e3e7;
+    height: 800px;
+    padding-top: 100px;
+}
+.carousel-indicators{
+    padding: 0% 20%;
+    top: 600px;
+}
+
+.Pastores{
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.minis_titulo{
+    background-color: #51c4d3;
+    color: #f4f5db;
+    text-align: center;
+    align-items: center;
+    width:50%;
+    margin: 2% 0 2% 25%;
+}
+.Minis_class{
+    
+    padding: 0 5%;
+}
+hr{
+    border: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.row{
+    padding: 2% 0;
+}
+.card{
+
+    padding: 2% 5%;
+    opacity: 80%;
+   
+}
+.card:hover{
+    opacity: 100%;
+    border-width:5px;  
+    border-style:outset;
+}
+
+.descripcion{
+    width: 50%;
+    margin:2% 25%;
+    font-size: 1rem;
+}
+
+.Igle{
+    background-color: #d8e3e7;
+    margin-top: 2%;
+    height: 800px;
+}
+
+@media (max-width: 500px ){
+    .fondo{
+    height: 24%;
+    }
+    .navbar-brand{
+        font-size: 0.75rem;
+    }
+    .minis{
+        font-size: 1rem;
+    }
+    body{
+        align-items: center;
+        text-align: center;
+    }
+    .Minis_class{
+    
+        padding: 0 15%;
+    }
+    .Pastores{
+        width: 40%;
+        border-radius: 100%;
+        margin: 20px;
+    }
+  
+}
